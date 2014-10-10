@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Benu (slimeball@foxmail.com)
+ * @date    2014-08-27 09:55:08
+ * @version 圣蜜莱雅
+ */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0) ;}
+a:hover{text-decoration:none;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+input{outline: none;}
+/*初始化*/
+.indexbg .z_bg{position: relative;}
+/*背景*/
+.indexbg .z_link{display: block; height: 16%; width: 40%; position: absolute; top: 272px; left: 30%;}
+.indexbg .z_rule{display: block; height: 10%; width: 40%; position: absolute; top: 427px; left: 30%;}
+.indexbg .z_backindex{display: block; height: 10%; width: 40%; position: absolute; top: 415px; left: 30%;}
+/*touch页*/
+.indexbg .touchme img{position: absolute;left: 8%;top: 21%;}
+.persent{position: absolute;bottom: 10%;left: 44%;font-size: 3em;color: #fff;}
+.jindu img{position: absolute;left: 5%;bottom: 1%;width: 0%;height: 28%;}
+/*act页*/
+.congra{position: absolute; left: 22%; bottom: 41%; font-size: 1em; color: #4a4a4a; width: 58%; text-align: center;}
+.gonext{position: absolute; left: 21%; bottom: 35%; font-size: 1.2em; color: #fff; width: 57%; display: block; text-align: center;}
+/*获奖页bingo*/
+.z_wyg{position: absolute; top: 230px; left: 11%; font-size: 1.3em; color: #fff; width: 81%;text-align: center;}
+	.z_wyg span{color: #eb08ce;}
+/*信息页*/
+.submitform{position: absolute;top:250px;left: 15%;width: 70%;height: 37%;}
+	.submitform .z_notice{position: absolute;top:50px;left:0%;font-size: 1.3em;text-align: center;width: 100%;color: #4a4a4a;}
+	.submitform input{width: 72%;height: 23px;margin-left: 10px;border: none;background: #ccc;}
+	.submitform .z_name{position: absolute;top:104px;left: 5%;font-size: 1.3em;text-align: center;width: 91%;color: #4a4a4a;}
+	.submitform .z_phone{position: absolute;top:145px;left: 5%;font-size: 1.3em;text-align: center;width: 91%;color: #4a4a4a;}
+	.submitform .z_submit{position: absolute; top:194px; left: 3%; font-size: 1.3em; text-align: center; width: 91%;}
+	.submitform .z_submit input{width: 43%; height: 26px; color: #fff; font-size: 1.3em;background: none;font-family: "微软雅黑";}
+/*表单页*/
+.z_tryagain{position: absolute; bottom: 34%; left: 17%; border-radius: 7px; width: 66%; height: 11%; background: #fff; opacity: 0.5;}
+	.z_tryagain span{display: block; width: 60%; height: 95%; position: absolute; left: 20%; bottom: 0%; font-size: 1.3em; text-align: center;}
+/*没中奖*/
+.z_nicetry{position: absolute; bottom: 30%; left: 17%; border-radius: 7px; width: 66%; height: 16%; background: #fff; opacity: 0.5;}
+	.z_nicetry span{display: block; width: 60%; height: 95%; position: absolute; left: 20%; bottom: 0%; font-size: 1.3em; text-align: center;}
+/*不够80%*/
+/*个人资料*/
+.indexbg_nobingo a {display: block; position: absolute; top: 393px; height: 39px; width: 39%; left: 30%;}
+.indexbg_submitok a{display: block; position: absolute; top: 443px; height: 39px; width: 39%; left: 30%;}
+.indexbg_notenough a{display: block; position: absolute; top: 395px; height: 39px; width: 39%; left: 30%;}
